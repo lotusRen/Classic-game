@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+ul,li,div{
+	padding:0;
+	margin:0;
+}
+div{
+	position:absolute;
+	top:540px;
+	left:0;
+	right:0;
+	margin:0 auto;
+	width:200px;
+}
+input{
+	width:30px;
+	outline: none;
+}
+input:hover{
+	box-shadow: 0 0 1px 1px honeydew;
+}
+div>ul{
+	position:relative;
+	top:-100px;
+	opacity: 0;
+	transition: 0.8s opacity;
+}
+div>ul>li>input{
+	
+	width:20px;
+	margin:0 10px 0 10px;
+}
+div>ul>li{
+	list-style: none;
+	float:left;
+}
+ 
